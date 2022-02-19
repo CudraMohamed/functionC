@@ -1,4 +1,5 @@
 fun main(){
+    var k = myFan("programming")
     var j = addNumb(10,15,17,25)
     println(j)
    var c = modulus(70,15)
@@ -19,4 +20,8 @@ fun modulus(a:Int,b:Int):Int{
 fun addNumb(e:Int,f:Int,g:Int,h:Int):Int{
     var sum = e+f+g+h
     return(sum)
+}
+
+fun myFan(fan:String){
+    println("I love $fan")
 }
